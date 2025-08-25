@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="flow1" name="Flowchart Pengaduan">
+    <mxGraphModel dx="1430" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Mulai -->
+        <mxCell id="start" value="Mulai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Login -->
+        <mxCell id="login" value="Login / Daftar Masyarakat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="180" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Beranda -->
+        <mxCell id="beranda" value="Beranda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="120" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Buat Pengaduan -->
+        <mxCell id="buat" value="Pilih menu 'Buat Pengaduan'" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Isi Form -->
+        <mxCell id="form" value="Isi Form Pengaduan" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Decision Validasi -->
+        <mxCell id="valid" value="Form Valid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Error -->
+        <mxCell id="error" value="Tampilkan Error &amp; Kembali Isi Form" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="460" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Pengaduan terkirim -->
+        <mxCell id="terkirim" value="Pengaduan Terkirim" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="160" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Admin verifikasi -->
+        <mxCell id="admin" value="Admin Verifikasi Laporan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Decision diterima -->
+        <mxCell id="diterima" value="Laporan Diterima?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Tolak laporan -->
+        <mxCell id="tolak" value="Tolak Laporan &amp; Kembali ke Pengguna" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="640" width="200" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Instansi terkait -->
+        <mxCell id="instansi" value="Instansi Terkait Tindak Lanjut" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Status diperbarui -->
+        <mxCell id="status" value="Status Laporan Diperbarui" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="200" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Pengguna lihat status -->
+        <mxCell id="lihat" value="Pengguna Melihat Status/Hasil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="800" width="220" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Selesai -->
+        <mxCell id="selesai" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="880" width="120" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="e1" edge="1" parent="1" source="start" target="login"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="login" target="beranda"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="beranda" target="buat"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="buat" target="form"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="form" target="valid"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="valid" target="error"><mxGeometry relative="1" as="geometry"><mxPoint x="-100" y="500" as="targetPoint"/></mxGeometry><mxCell style="edgeStyle=orthogonalEdgeStyle;" /></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="valid" target="terkirim"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="terkirim" target="admin"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="admin" target="diterima"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="diterima" target="tolak"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="diterima" target="instansi"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="instansi" target="status"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="status" target="lihat"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="lihat" target="selesai"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
