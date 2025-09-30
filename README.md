@@ -66,6 +66,8 @@ flowchart
 <img width="693" height="522" alt="image" src="https://github.com/user-attachments/assets/ac090f86-089e-4e81-b308-531a45418dcc" />
 use case diagram
 <img width="875" height="544" alt="image" src="https://github.com/user-attachments/assets/2e67cc2a-0cfa-4535-a79f-4efa3c29889c" />
+erd 
+<img width="951" height="519" alt="image" src="https://github.com/user-attachments/assets/48d9493d-f441-4038-a4fc-e181b4f9acbf" />
 
 
 
