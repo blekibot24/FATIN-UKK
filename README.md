@@ -35,12 +35,6 @@ Mengelola pengajuan/pengaduan yang sudah diverifikasi
 
 
 
-## ⚙️ Teknologi yang Digunakan
-
-PHP
-
-MySQL (database – konfigurasi belum disertakan di zip ini)
-
 
 
 CSS
@@ -61,12 +55,17 @@ User: (isi sesuai data di database)
 
 Admin: (isi sesuai data di database)
 
-## 📄 Lisensi
+## ⚙️ Teknologi yang Digunakan
 
-Proyek ini dibuat untuk latihan pembelajaran.
+PHP Native
 
-Activity Diagram Registrasi & Login.drawio
+MySQL
+flowchart
+<img width="1217" height="665" alt="image" src="https://github.com/user-attachments/assets/fb48828b-70b5-46a9-9357-35d4a577bbd0" />
+
+<img width="693" height="522" alt="image" src="https://github.com/user-attachments/assets/ac090f86-089e-4e81-b308-531a45418dcc" />
+use case diagram
+<img width="875" height="544" alt="image" src="https://github.com/user-attachments/assets/2e67cc2a-0cfa-4535-a79f-4efa3c29889c" />
 
 
-<img width="462" height="1552" alt="image" src="https://github.com/user-attachments/assets/98428b57-ec98-4ad2-8c4d-59b799ec91a2" />
 
